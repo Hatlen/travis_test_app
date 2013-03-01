@@ -9,7 +9,7 @@ task('lint', [], function() {
   var lint = require('./build/lint/lint_runner.js');
   var files = new jake.FileList();
   files.include("**/*.js");
-  files.exclude("node_modules")
+  files.exclude("node_modules");
   if (!lint.validateFileList(files.toArray(), nodeLintOptions(), {})) {
     fail('Lint fail');
   }
