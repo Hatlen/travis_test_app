@@ -2,7 +2,7 @@
 (function() {
 "use strict";
 desc("Default task");
-task('default', ['lint']);
+task('default', ['lint', 'test']);
 
 desc("Lint all code");
 task('lint', [], function() {
@@ -15,7 +15,7 @@ task('lint', [], function() {
 
 desc("Test the code");
 task('test', [], function() {
-  console.log('asdf');
+  console.log('Running the tests');
 });
 
 function nodeLintOptions() {
