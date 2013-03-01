@@ -1,0 +1,24 @@
+{
+  "name": "iteration1",
+  "version": "0.1.1",
+  "description": "\"test application\"",
+  "main": "jake.sh",
+  "dependencies": {
+    "jake": "~0.5.8",
+    "jshint": "~1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "./jake.sh test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/Hatlen/travis_test_app"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Trond Fröding",
+  "license": "BSD",
+  "gitHead": "a8a566229539175e2ec4d5ed991fec7f1d8eb091"
+}
