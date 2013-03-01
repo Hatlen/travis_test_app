@@ -9,7 +9,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "./jake.sh test"
+    "test": "`./jake.sh test`"
   },
   "repository": {
     "type": "git",
