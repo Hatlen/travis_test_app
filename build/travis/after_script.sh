@@ -1,2 +1,5 @@
 #!/usr/bin/env sh
-echo "After script running";
+echo "Running after script";
+git checkout integration;
+git merge master --no-ff --log;
+git checkout master;
