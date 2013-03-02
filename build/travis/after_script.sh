@@ -9,4 +9,4 @@ git checkout integration
 echo "Listing branches";
 git branch --list
 echo "Doing the merge thingy";
-git merge master --no-ff --log
+git merge master --quiet --no-ff --log
