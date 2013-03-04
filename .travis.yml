@@ -8,4 +8,4 @@ branches:
     - integration
 
 before_script: ./build/travis/before_script.sh
-after_success: ./build/travis/after_script.sh
+after_success: ./build/travis/after_success_script.sh
