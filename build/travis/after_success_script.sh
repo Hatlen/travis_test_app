@@ -4,8 +4,13 @@ echo "Running after script";
 #git merge master --no-ff --log;
 git config --global user.email "trondfroding@gmail.com"
 git config --global user.name "Trond Fröding"
-echo "Decrypting the ssh key"
-./build/travis/decrypt_key
+echo "Trying to ooutput some env variables"
+echo $message_1
+echo $message_2
+echo $message_3
+echo "End Trying to print env varibles"
+# echo "Decrypting the ssh key"
+# ./build/travis/decrypt_key
 git clone git://github.com/Hatlen/travis_test_app.git ../copy;
 cd ../copy;
 echo "Listing branches";
@@ -15,16 +20,9 @@ echo "Doing the merge thingy";
 git merge master --no-ff --log -m "The tests passed so we create a merge master into integration branch"
 echo "Listing files in ~/.ssh"
 ls ~/.ssh/
-echo $id_rsa_00
-echo $id_rsa_01
-echo $id_rsa_02
-echo $id_rsa_04
-echo $id_rsa_23
-cat ~/.ssh/id_rsa | head -n 1
-cat ~/.ssh/id_rsa | tail -n 1
+#cat ~/.ssh/id_rsa | head -n 1
+#cat ~/.ssh/id_rsa | tail -n 1
 cat ~/.ssh/known_hosts
-echo "Now it's time to show the public keys"
-for i in $(ls ~/.ssh/ | grep -e ".*\.pub"); do echo $i; cat ~/.ssh/$i; done;
 echo "Adding the content of the repos known_hosts file to travis's known_hosts"
 cat build/travis/known_hosts >> ~/.ssh/known_hosts
 echo "Trying to do a git push"
