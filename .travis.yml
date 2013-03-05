@@ -11,8 +11,8 @@ after_success: ./build/travis/after_success_script.sh
 
 env:
   global:
-    - secure: "erJITJ3cXWM27WJcs4aTzsQbfH4GQPyXn74YyRDNHIcZnL7w2SC9tsXPWLuR\nHo1eNIq3V9H6blMX0wHCsTto4NOQoJZOa6VyYNgjya9pcgfmXYCfWQ2BEoF5\n0Foi62cUb472R7YJPllF4ykwYQYhW0Nhfxk89gQoCgPsv4yTfIk="
     - secure: "CiESya2DZCpor5RJYCVF3CiDsmcL/wyszZ/dqCrG9ppZvq/7iLOoPjLnWQx8\nfeXNj0fszh/nI9fAWcXtQcfU3//5lPb7gzO/0SvnQGt6hdvRFwcgBM1v0hF+\nC9CCVJZtXRq03ag4aWLG9iiKeUq3OPc1EARzyBOs5TdtQz39m/I="
+    - secure: "erJITJ3cXWM27WJcs4aTzsQbfH4GQPyXn74YyRDNHIcZnL7w2SC9tsXPWLuR\nHo1eNIq3V9H6blMX0wHCsTto4NOQoJZOa6VyYNgjya9pcgfmXYCfWQ2BEoF5\n0Foi62cUb472R7YJPllF4ykwYQYhW0Nhfxk89gQoCgPsv4yTfIk="
     - secure: "dOAFGW+NvgV2t5CPEc22JmqmN4xN/IsfT0wdXDyIjOqJ7qVDMgPtdBHVO1qQ\nNsy+zoy3d1tyOLFCHCWL1N7uQto2k1Az3dIslz7CivtyL8ww+qhx7eKs3Pmt\nGgTBZ8PmrC6CflFNhRCrqrRfT3ZUjYltIwmyg/t+uITygQAg7Vo="
     - secure: "IVlPkSMOmRYhgM4shWsWAu/bc/OH0hbIahe12JKEiCgP0yuZHw9Pti1q7XlH\nQH18YEHQRwBNEXwXHWeUBl9nSjUgvbxFKDrsSint/YxavG2+ygqXxyifvk13\nVQqFOdTkKpTMnu7rReepdjlu7IQUtiEu8w8TQ68LTU6vm8Gwd5s="
     - secure: "ZNKZwxugmk3BiGJIvmKgsQa7UcylE8ofb8yLYccHq6IT7EI0gD0VYYzbVlUy\nSF2HrCHKpxxkGhqMgm4BN6qlBiTZAYxY1pMLx1tTkJJescJAgRGnW4Z5yUil\nJZ3/+lUWmCpkZH1ZF6l2rRMNYegg/GDHpadxuXWl/sYvbCxWOGI="
