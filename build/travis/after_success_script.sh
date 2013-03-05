@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 echo "Running after script";
 #git checkout origin/integration;
 #git merge master --no-ff --log;
