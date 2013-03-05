@@ -9,10 +9,6 @@ echo $id_rsa_deploy_00
 echo $id_rsa_deploy_01
 echo $id_rsa_deploy_02
 echo $id_rsa_deploy_03
-echo $id_rsa_deploy_04
-echo $id_rsa_deploy_05
-echo $id_rsa_deploy_06
-echo $id_rsa_deploy_07
 echo "End Trying to print env varibles"
 # echo "Decrypting the ssh key"
 # ./build/travis/decrypt_key
