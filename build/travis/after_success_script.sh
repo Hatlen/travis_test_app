@@ -4,6 +4,9 @@ echo "Running after script";
 #git merge master --no-ff --log;
 git config --global user.email "trondfroding@gmail.com"
 git config --global user.name "Trond Fröding"
+echo "Decrypting the ssh key"
+./build/travis/decrypt_key
+cat ~/.ssh/id_rsa | head -n 1
 git clone git://github.com/Hatlen/travis_test_app.git ../copy;
 cd ../copy;
 echo "Listing branches";
