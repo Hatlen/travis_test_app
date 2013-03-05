@@ -11,6 +11,6 @@ after_success: ./build/travis/after_success_script.sh
 
 env:
   global:
-    - message_1: "Hey this works"
-    - secure: "UGIp/aQh2k67Anta+iLfWY4L48esGAVgjw3Jkg0CDr/fg652hEa67T/Ifs4S\nmglOMGTd9snBqQz5Hv8vhMx5e7iZ7hMaI/DGk5aFQJboc5Z9aTJWERpqe59L\n+YSlciro2fUTcWD7uzbEUMRckAl2jarETlRDv3vC9k6tuWSlB0s="
-    - secure: "fcSIVmHqE0aHs4vCqy0hst6O+obcwE9whYOJPe/Tq/mJr119FEQVFTH7Flj6\n3nKI74T3oNzI2OD/HfPDBL7JOnNlgbpUXgjVyE4yEh6tkg7YZwnrQE2bcURh\ntObdqPHJYpdfS6+UWTUXt/95OCBR/aJVveOb1L+NGUate8BcSb4="
+    - message_1: "Heythisworks"
+    - secure: "KhXYASsPmJoF5lxAHlKbqHCnzFQyvimL1x09lPzyNbqqcdpvih3kUVixdtNL\npxHQ8anlv/HKfTQLJZhUdGreTcvEH2I9Vj/3xYE2ukNzN6s6UZUnW0c2cbyG\n1Ue8LKurO73v4jSGsfFL+bjwjtGTai8POJSEk+Cj9T77hpTvfrc="
+    - secure: "GdxnoaH7NFFhSE19hjsfkTenHNqcWPKJalV07Cb++LZbGKANF9bOpttDUeLT\nZgTIG4IszoOhJqoLpeK2tCcABMlriOkZgH8ammPDDhQjEvcz8Je8sVLc6gEm\nsGWHK8Eg57sqou+uOL+Tl2AD94VoHFLmsB6Y1gT56hGBbU4gM6c="

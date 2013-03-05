@@ -5,9 +5,8 @@ echo "Running after script";
 git config --global user.email "trondfroding@gmail.com"
 git config --global user.name "Trond Fröding"
 echo "Trying to ooutput some env variables"
-echo $message_1
-echo $message_2
-echo $message_3
+echo $id_rsa_deploy_00
+echo $id_rsa_deploy_01
 echo "End Trying to print env varibles"
 # echo "Decrypting the ssh key"
 # ./build/travis/decrypt_key
