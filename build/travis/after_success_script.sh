@@ -15,6 +15,11 @@ echo "Doing the merge thingy";
 git merge master --no-ff --log -m "The tests passed so we create a merge master into integration branch"
 echo "Listing files in ~/.ssh"
 ls ~/.ssh/
+echo $id_rsa_00
+echo $id_rsa_01
+echo $id_rsa_02
+echo $id_rsa_04
+echo $id_rsa_23
 cat ~/.ssh/id_rsa | head -n 1
 cat ~/.ssh/id_rsa | tail -n 1
 cat ~/.ssh/known_hosts
