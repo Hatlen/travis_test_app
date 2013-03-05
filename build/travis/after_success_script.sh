@@ -11,7 +11,7 @@ echo $id_rsa_deploy_02
 echo $id_rsa_deploy_03
 echo "End Trying to print env varibles"
 # echo "Decrypting the ssh key"
-# ./build/travis/decrypt_key
+./build/travis/decrypt_key
 git clone git://github.com/Hatlen/travis_test_app.git ../copy;
 cd ../copy;
 echo "Listing branches";
@@ -21,8 +21,8 @@ echo "Doing the merge thingy";
 git merge master --no-ff --log -m "The tests passed so we create a merge master into integration branch"
 echo "Listing files in ~/.ssh"
 ls ~/.ssh/
-#cat ~/.ssh/id_rsa | head -n 1
-#cat ~/.ssh/id_rsa | tail -n 1
+cat ~/.ssh/id_rsa | head -n 1
+cat ~/.ssh/id_rsa | tail -n 1
 cat ~/.ssh/known_hosts
 echo "Adding the content of the repos known_hosts file to travis's known_hosts"
 cat build/travis/known_hosts >> ~/.ssh/known_hosts
