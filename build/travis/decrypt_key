@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 # To reconstitute the private SSH key once running inside Travis (typically from 'before_script')
 echo -n $id_rsa_deploy_{00..30} >> ~/.ssh/id_rsa_base64_with_whitespace
 cat ~/.ssh/id_rsa_base64_with_whitespace
